@@ -5,6 +5,7 @@
 
 /* modifiche dell' header */
 
+
 .logo {
     background-color: rgb(99, 159, 248);
     background-image: url('../img/pattern.png');
@@ -29,11 +30,19 @@ h1 {
     font-size: 20px;
 }
 
-p span { 
+p .writer_name { 
     color: rgb(90, 175, 227);
 }
 
+.writer p .date {
+    font-size: 15px;
+}
+
 /* modifiche del main */
+
+.article_photos {
+    margin-top: 30px;
+}
 
 .introduction {
     margin-top: 20px;
@@ -66,6 +75,45 @@ th, td {
 .tr_blue {
     background-color: rgb(189, 228, 240);
 }
+
+/* modifiche conclusione */
+
+.conclusions p {
+    margin-top: 30px;
+}
+
+.conclusions p span {
+    background-color: rgb(255, 255, 85);
+}
+
+/* modifiche del footer */
+
+footer h2{
+    margin: 20px 0 10px 0;
+    color:rgb(130, 130, 130)
+}
+
+.monitor_photo, .graph_photo {
+    width: 300px;
+    height: 200px;
+}
+
+.monitor_photo {
+    background-image: url("../img/monitor.jpg");
+    margin-bottom: 3px;
+}
+
+.graph_photo {
+    background-image: url("../img/graph.jpg");
+    margin-bottom: 20px;
+}
+
+.interests div p {
+    font-size: 30px;
+    color: seashell;
+    margin-left: 10px;
+}
+
 
 
 

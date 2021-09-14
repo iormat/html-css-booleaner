@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* modifiche dell' header */
+
+
+
+header .title, main, footer {
+    width: 90%;
+    margin: auto;
+}
+
+
+.logo {
+    background-color: rgb(99, 159, 248);
+    background-image: url('../img/pattern.png');
+    background-size: contain;
+    width: 100%;
+}
+
+
+.logo img {
+    width: 250px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.writer {
+    color: rgb(135, 135, 135);
+    font-size: 20px;
+}
+
+p .writer_name { 
+    color: rgb(90, 175, 227);
+}
+
+.writer p .date {
+    font-size: 15px;
+}
+
+/* modifiche del main */
+
+.article_photos {
+    margin-top: 30px;
+}
+
+.introduction {
+    margin-top: 20px;
+}
+
+.introduction ul {
+    margin: 30px 0 30px 0;
+
+}
+
+.introduction>p span {
+    background-color: rgb(255, 255, 85);
+}
+
+/* modifiche table */
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(80, 167, 225);
+}
+
+th, td {
+    min-width: 300px;
+    text-align: left;
+}
+
+.tr_blue {
+    background-color: rgb(189, 228, 240);
+}
+
+/* modifiche conclusione */
+
+.conclusions p {
+    margin-top: 30px;
+}
+
+.conclusions p span {
+    background-color: rgb(255, 255, 85);
+}
+
+/* modifiche del footer */
+
+footer h2{
+    margin: 20px 0 10px 0;
+    color:rgb(130, 130, 130)
+}
+
+.monitor_photo, .graph_photo {
+    width: 300px;
+    height: 200px;
+}
+
+.monitor_photo {
+    background-image: url("../img/monitor.jpg");
+    margin-bottom: 3px;
+}
+
+.graph_photo {
+    background-image: url("../img/graph.jpg");
+    margin-bottom: 20px;
+}
+
+.interests div p {
+    font-size: 30px;
+    color: seashell;
+    margin-left: 10px;
+}
+
+
+
+
+
+
